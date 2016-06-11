@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <hozur.com.coolviewlib.Views.CoolButton
+        android:layout_width="match_parent"
+        android:text="ئۇيغۇرچە View"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/btn1" />
+
+    <hozur.com.coolviewlib.Views.CoolButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ئۇيغۇرچە  ھەرىپ تاختىسى"
+        android:id="@+id/btn2"
+        android:layout_below="@+id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+</RelativeLayout>
